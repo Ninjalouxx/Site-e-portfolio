@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-portfolio de Dimitri Deramond</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+    <div class="welcome-screen">
+        <img src="E:\SD 2\Portfolio\fond_ecran.jpeg" alt="Fond d'écran">
+        <div class="welcome-text">
+            <h1>Bienvenue sur mon site e-portfolio</h1>
+            <h3>Dimitri Deramond</h3>
+        </div>
+    </div>
+
+    <div class="menu">
+    <ul>
+        <li><a href="#about">À propos de moi</a></li>
+        <li><a href="#experience">Mon parcours</a></li>
+        <li><a href="#skills">Mes compétences</a></li>
+        <li><a href="#projects">Projets personnels</a></li>
+        <li><a href="#interests">Mes centres d'intérêts</a></li>
+        <li><a href="#contact">Me contacter</a></li>
+    </ul>
+</div>
+
+
+	<div id="about" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 order-md-2">
+					<h2 style="text-align: center; font-weight: bold; margin-bottom: 70px;">À propos de moi</h2>
+					<p>
+						Je suis actuellement étudiant en 2e année d’un BUT Science des données et je souhaite me spécialiser dans le domaine de la data science.
+						Mon intérêt pour les statistiques et l'informatique m'a naturellement conduit à explorer de nouvelles technologies.
+						Mon e-portfolio permet de faire découvrir mon parcours, mes compétences techniques, mes softs skills et mes projets professionnels.
+						Chaque expérience m’a permis d'acquérir des compétences pratiques et une bonne compréhension des concepts clés de la science des données.
+						J'apprécie également la dimension humaine de mon domaine d'études.
+						Mes passions à côté de la data science sont le sport en général ainsi que le monde des échecs.
+					</p>
+				</div>
+				<div class="col-md-6 order-md-1">
+					<img src="E:\SD 2\Portfolio\photo_moi.jpeg" alt="Ma photo" class="img-fluid rounded-circle" style="max-width: 300px; margin-top: 20px;">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="experience" class="section">
+		<div class="container">
+			<h2 style="text-align: center; font-weight: bold; margin-bottom: 100px;">Mon parcours</h2>
+			<div class="timeline">
+				<div class="timeline-item">
+					<div class="timeline-marker"></div>
+					<div class="timeline-content">
+						<h3>BUT Science des Données - IUT de Paris Rives de Seine (bac+3)</h3>
+						<p>Années universitaires 2022 - 2025</p>
+						<p>Le B.U.T. Science des Données forme des experts en traitement et analyse de données, capables de guider les décisions. Nous, diplômés, assurons la qualité, la sécurité et l'accessibilité des données, les stockons dans des bases structurées, et réalisont des analyses statistiques pour des outils décisionnels. Au cours de notre formation, nous travaillons en projet, collaborons avec des décideurs pour définir les objectifs d'une étude statistique, choisissons les méthodes adaptées, programmons les analyses, synthétisons les résultats, et automatisons leur production. J'ai eu l'occasion de choisir le parcours "Exploration et modélisation statistique", qui forme des professionnels compétents dans le recueil, le traitement, et l'analyse statistique des données. Nos compétences incluent la définition et le recueil de données pertinentes, le choix d'outils statistiques adaptés, la mise en oeuvre d'analyses et de modélisations, et la production de résultats sous forme de rapports, tableaux et graphiques.</p>
+					</div>
+				</div>
+				<div class="timeline-item">
+					<div class="timeline-marker"></div>
+					<div class="timeline-content">
+						<h3>Baccalauréat Général - Lycée Michelet</h3>
+						<p>Année scolaire 2021 - 2022</p>
+						<p>Spécialités choisies : Mathématiques & Sciences Economiques et Sociales</p>
+						<p>Mention Bien</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="skills" class="section">
+		<div class="container">
+			<h2 style="text-align: center; font-weight: bold; margin-bottom: 100px;">Compétences</h2>
+			<div class="skills-container">
+				<div class="skill">
+					<div class="skill-content">
+						<p>Programmation statistique (RStudio, RShiny, Python, SAS)</p>
+					</div>
+					<div class="skill-image">
+						<img src="E:\SD 2\Portfolio\RPS.png" alt="RPS" style="width: 100%;">
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-content">
+						<p>Reporting, Visualisation de données (Tableau, Excel,PowerBI)</p>
+					</div>
+					<div class="skill-image">
+						<img src="E:\SD 2\Portfolio\TEP.png" alt="TEP" style="width: 100%;">
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-content">
+						<p>Requêtage,Gestion et Structuration et traitement de bases de données (SQL,Access)</p>
+					</div>
+					<div class="skill-image">
+						<img src="E:\SD 2\Portfolio\SA.png" alt="SA" style="width: 100%;">
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-content">
+						<p>Analyse et exploitation statistique de données</p>
+					</div>
+					<div class="skill-image">
+						<img src="E:\SD 2\Portfolio\Analyse (2).png" alt="Analyse" style="width: 100%;">
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-content">
+						<p>Droit des données (RGPD)</p>
+					</div>
+					<div class="skill-image">
+						<img src="E:\SD 2\Portfolio\RGPD.png" alt="RGPD" style="width: 100%;">
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-content">
+						<p>Organisation et Travail en équipe</p>
+					</div>
+					<div class="skill-image">
+						<img src="E:\SD 2\Portfolio\Orga.png" alt="Orga" style="width: 100%;">
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+			</div>
+			<div class="skills-description">
+				<div class="arrow-right"></div>
+				<p>Ces compétences me permettent d'extraire des informations cruciales à partir de données brutes, fournissant des perspectives claires et exploitables. Que ce soit la manipulation agile des bases de données, la création de rapports percutants, ou l'application de modèles statistiques avancés, mon parcours en Sciences des Données me donne l'agilité nécessaire pour répondre aux défis rencontrés. Mon expérience pratique, allant au-delà des simples connaissances théoriques, s'appuie sur des projets concrets et dans des contextes réels, expliqués juste en dessous.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="projects" class="section">
+		<div class="container">
+			<h2 style="text-align: center; font-weight: bold; margin-bottom: 100px;">Projets Personnels</h2>
+			<div class="projects-container">
+				<div class="project">
+					<h3>Etude démographique à partir de données médicales.</h3>
+					<div class="project-image">
+						<img src="E:\SD 2\Portfolio\med.jpg" alt="Etude démographique" style="width: 100%; height: auto;">
+					</div>
+					<div class="project-description">
+						<p>De fev 2023 à juin 2023</p>
+						<p>Traitement et analyses statistiques de données cliniques provenant d’une étude réalisée dans 5 hôpitaux aux Etats-Unis, afin d'étudier quelles sont les liens entre les différentes variables sociodémographiques et le décès du patient. </p>
+						<p>- Travail de groupe de 4 personnes.</p>
+						<p>- Création d’une base de donnée propre sur RStudio.</p>
+						<p>- Analyse des données, réalisation de graphiques et modélisation statistique sur RStudio.</p>
+						<p>- Valorisation des résultats à l’oral avec support visuel PowerPoint.</p>
+					</div>
+				</div>
+				<div class="project">
+					<h3>Création de reporting à partir d’un SGBD relationnel.</h3>
+					<div class="project-image">
+						<img src="E:\SD 2\Portfolio\sql.jpg" alt="Etude démographique" style="width: 100%;">
+					</div>
+					<div class="project-description">
+						<p>Jan 2023</p>
+						<p>Requêtage dans une base de données (SQL) puis analyse descriptive des données et prise de décisions sur Excel, afin de rendre un rendu professionnel.</p>
+						<p>- Travail de groupe de 4 personnes.</p>
+						<p>- Récupération des données par requêtage SQL.</p>
+						<p>- Analyse des données et création de graphique sur Excel.</p>
+						<p>- Rédaction d’un rapport reporting Excel.</p>
+					</div>
+				</div>
+				<div class="project">
+					<h3>Enquête d’évaluation du bilan carbone des membres de l’IUT Rives de Seine.</h3>
+					<div class="project-image">
+						<img src="E:\SD 2\Portfolio\bilan_car.png" alt="Etude démographique" style="width: 100%;">
+					</div>
+					<div class="project-description">
+						<p>De nov 2022 à jan 2023</p>
+						<p>Dans le cadre d’évaluer le bilan carbone actuel de notre IUT, notre mission consiste à interroger les membres de l'établissement sur leurs habitudes et les changements qu'ils seraient prêts à faire à court terme et d'ici 2030.</p>
+						<p>- Travail de groupe de 4 personnes.</p>
+						<p> -Rédaction du questionnaire et saisie sur LimeSurvey.</p>
+						<p>- Traitement de la base de données dans Excel, Analyses statistiques.</p>
+						<p>- Présentation orale des résulatats, avec support visuel et datavisualisations.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="interests" class="section">
+		<div class="container">
+			<h2 style="text-align: center; font-weight: bold; margin-bottom: 100px;">Centres d'Intérêts</h2>
+			<div class="interests-container">
+				<div class="interest">
+					<h3>Echecs</h3>
+					<div class="interest-video">
+                    <video controls style="width: 100%;">
+                        <source src="E:\SD 2\Portfolio\echecs.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+					</div>
+					<div class="interest-description">
+						<p>Il y a environ 3 ans, je me suis découvert une véritable passion pour le jeu d'échecs. Cette passion m'a même conduit à participer activement à des tournois nationaux homologués FIDE, ainsi qu’à m’inscrire dans un club. Cet intérêt pour les échecs me semble être liée à mes études en Science des Données. Les compétences stratégiques, l'analyse rigoureuse, et la prise de décision rapide que j'ai développées en jouant aux échecs se reflètent dans ma capacité à traiter et analyser efficacement des données.</p>
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+				<div class="interest">
+					<h3>Sport</h3>
+					<div class="interest-image">
+						<img src="E:\SD 2\Portfolio\sport.png" alt="Sport" style="width: 100%;">
+					</div>
+					<div class="interest-description">
+						<p>Le sport occupe également une place importante dans ma vie. Depuis mon enfance, j'ai exploré beaucoup de disciplines sportives en club, tels que l'escrime, le tennis, le handball, le ping-pong, et le badminton. Depuis, j’ai gardé cette passion du sport, afin de garder un esprit sain dans un corps sain.</p>
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+				<div class="interest">
+					<h3>Voyages et Cultures</h3>
+					<div class="interest-image">
+						<img src="E:\SD 2\Portfolio\voyage_piano.png" alt="Voyage et Cultures" style="width: 100%;">
+					</div>
+					<div class="interest-description">
+						<p>Enfin, ma passion pour les voyages et la découverte de nouvelles cultures m’intéresse beaucoup. Franco-russe, j'ai eu la chance de visiter la Russie à plusieurs reprises, m’imprégnant de cette culture si différente de la nôtre, dès mon plus jeune âge.
+						Au fil de ces voyages, j'ai développé un intérêt pour la diversité culturelle, enrichissant ainsi ma vision sur le monde qui m'entoure. Ces expériences ont impacté mon ouverture d'esprit.</p>
+						<p>En parallèle, j'ai consacré 9 années à l'apprentissage du piano, suscitant un intérêt particulier pour la musique. Cette pratique qui se doit être assidue et rigoureuse a ajouté une dimension artistique à ma personnalité.</p>
+					</div>
+					<div class="arrow-down"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="contact" class="section">
+        <div class="container">
+            <h2 style="text-align: center; font-weight: bold; margin-bottom: 100px;">On arrive déjà à la fin... c'est l'heure de me contacter !</h2>
+            <form action="mailto:dimitri.deramond@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="email">Votre Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+			<div class="contact-info">
+				<div class="contact-info-left">
+					<img src="E:\SD 2\Portfolio\mail.png" alt="Mail">
+				</div>
+				<div class="contact-info-right">
+					<p>Mail : dimitri.deramond@gmail.com</p>
+				</div>
+			</div>
+			<div class="contact-info">
+				<div class="contact-info-left">
+					<img src="E:\SD 2\Portfolio\tel.png" alt="Téléphone">
+				</div>
+				<div class="contact-info-right">
+					<p>Téléphone : 06 75 46 00 69</p>
+				</div>
+			</div>
+			<div class="contact-info">
+				<div class="contact-info-left">
+					<img src="E:\SD 2\Portfolio\linkedin.png" alt="Linkedin">
+				</div>
+				<div class="contact-info-right">
+					<p>LinkedIn : <a href="https://www.linkedin.com/in/dimitri-deramond/" target="_blank">https://www.linkedin.com/in/dimitri-deramond/</a></p>
+				</div>
+			</div>
+			<div class="contact-info">
+				<div class="contact-info-left">
+					<img src="E:\SD 2\Portfolio\cv.png" alt="CV">
+				</div>
+				<div class="contact-info-right">
+					<p>Téléchargez mon CV ! : <a href="E:\SD 2\Professionnel\CVs\DERAMOND_CV.pdf" download>Mon CV</a></p>
+				</div>
+			</div>
+        </div>
+    </div>
+	
+
+</body>
+</html>
